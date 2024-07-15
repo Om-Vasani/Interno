@@ -1,0 +1,167 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.nav-link {
+
+    font-family: 'poppins',sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+
+
+}
+.icon{
+
+    gap: 20px;
+    display: flex;
+   
+}
+.btnmdi-alert{
+
+    border: none;
+    background-color: #ffffff;
+
+}
+.seaction{
+
+    background-image: url('../images/Group\ 78\ \(2\).png');
+    width: 1440px;
+    height: 320px;
+
+}
+.seaction-2{
+
+    width: 1440px;
+    height: 1145px;
+  
+}
+h1{
+
+    font-family: 'poppins',sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px !important;
+
+}
+p{
+
+    width: 645px;
+    height: 50px;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+.col{
+
+    width: 635px !important;
+    height: 925px;
+    margin: 0 auto;
+    
+    flex: none !important;
+
+}
+label{
+
+    width: 145px;
+    height: 25px;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+    margin-top: 30px;
+   
+    
+}
+input{
+
+    width:  529px;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    color: #9f9f9f;
+
+}
+.btnSubmit{
+
+    width: 240px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cc9933;
+    color: #ffffff;
+    
+}
+.frame{
+
+    margin-top: 50px;
+}
+.site-footer{
+
+    margin-top: 50px !important;
+
+}
+.te-footer{
+
+    margin-top: 50px;
+}
+.footer-links{
+
+    list-style: none;
+
+}
+.footer-links a{
+
+    text-align: start;
+    text-decoration: none;
+    color: #000000  ;
+}
+.footer-content p{
+    width: auto;
+}
+.footer-links{
+    padding: 0;
+    
+
+}
+.footer-p{
+
+    margin: 115px;
+    display: block;
+    margin-top: 30px;
+
+}
+@media(max-width:375px){
+
+    .seaction{
+
+        width: 375px;
+        height: 300px;
+
+    }
+    .seaction-2{
+
+        width: 375px;
+        height: 740px;
+
+    }
+    p{
+
+        width: 375px;
+        font-size: 9px !important;
+
+    }
+    .col{
+
+        width: 375px;
+        height: 645px !important;
+
+    }
+    .frame{
+
+        width: 375px;
+        
+    }
+}

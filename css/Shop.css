@@ -1,0 +1,168 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-link {
+
+    font-family: 'poppins', sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+
+
+}
+
+.icon {
+
+    gap: 20px;
+    display: flex;
+
+}
+
+.btnmdi-alert {
+
+    border: none;
+    background-color: transparent;
+
+}
+
+.seaction {
+
+    background-image: url('../images/Group\ 78\ \(3\).png');
+    width: 1440px;
+    height: 320px;
+
+}
+
+.seaction-2 {
+
+    width: 1440px;
+    height: 2050px;
+
+
+}
+.row{
+
+    display: flex;
+}
+.seaction-3 {
+    position: relative;  
+    width:100%;
+    max-width:100px;
+    display: flex;
+    justify-content: center;
+}
+.seaction-3:before {
+  content:"";
+  position:absolute;
+  width: 1440px;
+  height:777px;
+  display: block;
+  
+
+  top:0;left:0;right:0;
+  background-color:rgba(0,0,0,0);
+}
+.seaction-3:hover::before {
+  background-color:rgba(0,0,0,0.5);
+}
+.seaction-3 img {
+  display:block;
+  margin: 9px;
+  
+}
+
+.seaction-3:hover button {   
+  opacity: 1;
+}
+.card{
+
+    width: 285px;
+    height: 438px;
+}
+.frame {
+
+    margin-top: 50px;
+}
+
+.site-footer {
+
+    margin-top: 50px !important;
+
+}
+
+.te-footer {
+
+    margin-top: 50px;
+}
+
+.footer-links {
+
+    list-style: none;
+
+}
+
+.footer-links a {
+
+    text-align: start;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-content p {
+    width: auto;
+}
+
+.footer-links {
+    padding: 0;
+
+
+}
+
+.footer-p {
+
+    margin: 115px;
+    display: block;
+    margin-top: 30px;
+
+}
+
+@media (max-width:375px) {
+
+    .seaction-2 {
+
+        width: 375px;
+
+    }
+
+    .seaction-3 {
+
+        width: 375px;
+        margin: 30px;
+        display: block;
+
+
+    }
+
+    .seaction-4 {
+
+        margin-top: 5400px;
+    }
+
+    .frame {
+
+        width: 375px;
+
+    }
+
+    .footer-p {
+
+
+        width: 375px;
+
+
+
+    }
+}

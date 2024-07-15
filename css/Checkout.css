@@ -1,0 +1,142 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.nav-link {
+
+    font-family: 'poppins',sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+
+
+}
+.icon{
+
+    gap: 20px;
+    display: flex;
+   
+}
+.btnmdi-alert{
+
+    border: none;
+    background-color: #ffffff;
+
+}
+.seaction{
+
+    background-image: url('../images/Group\ 78\ \(1\).png');
+    width: 1440px;
+    height: 320px;
+
+}
+
+.seaction-2{
+
+    width: 1440px;
+    height: 1830px;
+    border: 1px solid #000;
+
+}
+.seaction-3{
+
+    width: 1245px;
+    height: 1715px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+   
+    
+}
+.p2{
+
+    width: 530px;
+    height: 72px;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px !important;
+    color: #9f9f9f;
+
+}
+.p3{
+
+    width: 190px;
+    height: 25px;
+    color: #9f9f9f;
+
+}
+.p4{
+
+    width: 165px;
+    height: 25px;
+    color: #9f9f9f;
+
+}
+.btnPlaceorder{
+
+    width: 320px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: #ffffff;
+
+}
+.site-footer{
+
+    margin-top: 50px !important;
+
+}
+.te-footer{
+
+    margin-top: 50px;
+}
+.footer-links{
+
+    list-style: none;
+
+}
+.footer-links a{
+
+    text-align: start;
+    text-decoration: none;
+    color: #000000  ;
+}
+.footer-content p{
+    width: auto;
+}
+.footer-links{
+    padding: 0;
+    
+
+}
+.footer-p{
+
+    margin: 115px;
+    display: block;
+    margin-top: 30px;
+
+}
+@media (max-width:375px){
+
+    .seaction-3{
+
+        width: 375px;
+        
+    }
+    .col{
+
+        width: 285px !important;
+        margin: -30px;
+      
+        
+    }
+    .col-2{
+
+        width: 285px !important;
+        margin: -30px;
+    }
+    .row{
+
+        flex-direction: column;
+
+    }
+}

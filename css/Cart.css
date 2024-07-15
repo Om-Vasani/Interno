@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.nav-link {
+
+    font-family: 'poppins',sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+
+
+}
+.icon{
+
+    gap: 20px;
+    display: flex;
+   
+}
+.btnmdi-alert{
+
+    border: none;
+    background-color: #ffffff;
+
+}
+.seaction{
+
+    background-image: url('../images/Group\ 78.png');
+    width: 1440px;
+    height: 320px;
+
+}
+.seaction-2{
+
+    width: 1440px;
+    height: 525px;
+    margin-top: 50px;
+    
+}
+tbody{
+
+   border-color: snow !important;
+   border-style: none !important;
+
+}
+.cart{
+
+    width: 395px;
+    height: 255px;
+    background-color: #f9f1e7;
+   
+
+}
+.heading-2{
+
+    font-family: 'poppins',sans-serif;
+    font-size: 32px !important;
+    text-align: center;
+}
+thead{
+
+    background-color: #f9f1e7;
+    border-color: snow !important;
+    border-style: none !important;
+
+}
+.btnCheckOut{
+
+    width: 225px;
+    height: 59px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin: 80px;
+    display: block;
+    margin-top: 30px;
+    background-color: #f9f1e7;
+
+}
+.frame{
+
+    margin-top: 50px;
+}
+.site-footer{
+
+    margin-top: 50px !important;
+
+}
+.te-footer{
+
+    margin-top: 50px;
+}
+.footer-links{
+
+    list-style: none;
+
+}
+.footer-links a{
+
+    text-align: start;
+    text-decoration: none;
+    color: #000000  ;
+}
+.footer-content p{
+    width: auto;
+}
+.footer-links{
+    padding: 0;
+    
+
+}
+.footer-p{
+
+    margin: 115px;
+    display: block;
+    margin-top: 30px;
+
+}
+@media (max-width:375px){
+    
+    .seaction{
+
+        width: 375px;
+        height: 300px;
+    
+    }
+    .frame{
+
+        width: 375px;
+        
+        
+    }
+}
